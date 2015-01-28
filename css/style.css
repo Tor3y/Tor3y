@@ -89,7 +89,18 @@ p {
 	position:fixed;
 	bottom: 0;
 	max-width: 75em;
-	border: 1px dotted black;
+	/*border: 1px dotted black;*/
+
+}
+.social-icons {
+	margin-top: .6em;
+}
+.social {
+	margin-bottom: 50%;
+	float: right;
+	padding-right: 2rem;
+	height: 2.7em;
+	width: 2.7em;
 
 }
 
