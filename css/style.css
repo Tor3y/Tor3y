@@ -1,0 +1,106 @@
+
+
+body {
+	font-size: 16px;
+	max-width: 1200px;
+	margin: auto;
+
+}
+/* Header */
+.header {
+	display: block;
+	height: 14em; 
+	text-align: center;
+
+}
+.logo {
+	height: 6.25em; /* 16/100 */
+	display: inline; 
+	vertical-align: middle;
+}
+.name {
+	display: inline;
+	font-size: 6em;
+	vertical-align: middle;
+	font-family: "Oswald";
+}
+.move {
+	margin-top: 10%;
+}
+
+/* Contact Section */
+.info {
+	height: 31.25em;	/* 16/500px */
+	width: 12.5em; /* 16/200px */
+	border-right: 1px solid black;
+	/*margin-top: 5%;*/
+	margin-bottom: 5%;
+	float: left;
+}
+p {
+	font-size: 1.2em;
+	margin: 0;
+	font-family: 'Yeseva One', cursive;
+}
+
+
+/* Image Carousel */
+.slide-viewer {
+	height: 28.125em; /* 16 / 450 */
+	width: 50em; /* 16 / 864px */
+	border-radius: 2px;
+	display: block;
+	margin-top: 2%;
+	position: relative;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+.slide-group {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.slide {
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: absolute;
+}
+.slide:first-child {
+	display: block;
+}
+.slide-btn {
+	display: inline;
+	color: red;
+	border: none;
+	background-color: white;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/* Footer */
+.footer {
+	height: 4.375em; /* 16/70px */
+	width: 100%;
+	position:fixed;
+	bottom: 0;
+	max-width: 75em;
+	border: 1px dotted black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
