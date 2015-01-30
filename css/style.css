@@ -11,6 +11,7 @@ body {
 	display: block;
 	height: 14em; 
 	text-align: center;
+	position: relative;
 
 }
 .logo {
@@ -37,6 +38,7 @@ body {
 	/*margin-top: 5%;*/
 	margin-bottom: 5%;
 	float: left;
+	padding-left: 2%;
 }
 .contact-links {
 	font-size: 1.2em;
@@ -110,12 +112,17 @@ body {
 	width: 2.7em;
 }
 .social:hover {
+	color: red;
 	opacity: 0.2;
 }
 .right {
 padding-right: 6.5em;
 }
+img {
+	max-width: 100%;
+}
 
+media 
 
 
 
